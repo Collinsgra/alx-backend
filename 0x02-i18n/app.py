@@ -3,8 +3,6 @@
     Module for i18n.
 '''
 
-#!/usr/bin/env python3
-""" Module for trying out Babel i18n """
 from datetime import datetime
 from flask_babel import Babel, _, format_datetime
 from flask import Flask, render_template, request, g
